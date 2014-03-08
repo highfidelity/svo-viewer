@@ -1,0 +1,3 @@
+[submodule "hifi"]
+	path = hifi
+	url = https://github.com/highfidelity/hifi

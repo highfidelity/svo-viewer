@@ -204,7 +204,7 @@ void SvoViewer::init() {
     //_myCamera.setFarClip(500.0f * TREE_SCALE);
     _myCamera.setFarClip(TREE_SCALE);
     _myCamera.setFieldOfView(_fieldOfView);
-    _myCamera.lookAt(glm::vec3(0.0f,0.0f,0.0f));
+    _myCamera.lookAt(glm::vec3(IDENTITY_FRONT));
     _myCamera.setAspectRatio((float)_width / (float) _height);
     loadViewFrustum(_myCamera, _viewFrustum);
 }
